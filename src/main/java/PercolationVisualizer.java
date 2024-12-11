@@ -1,4 +1,4 @@
-/******************************************************************************
+/*
  *  Compilation:  javac PercolationVisualizer.java
  *  Execution:    java PercolationVisualizer input.txt
  *  Dependencies: Percolation.java
@@ -11,7 +11,7 @@
  *  After each site is opened, it draws full sites in light blue,
  *  open sites (that aren't full) in white, and blocked sites in black,
  *  with site (1, 1) in the upper left-hand corner.
- ******************************************************************************/
+ */
 
 import java.awt.Font;
 
@@ -22,7 +22,7 @@ public class PercolationVisualizer {
 
     // input file to visualize
     private static final String FILE_PATH =
-            "./percolation-test-files/input10-no.txt";
+            "./percolation-test-files/input1-no.txt";
 
     // delay in milliseconds (controls animation speed)
     private static final int DELAY = 100;
